@@ -1,11 +1,11 @@
 baseURL = '/' # Will be updated dynamically in the workflow
 languageCode = 'en-us'
-title = 'Gage Cameron Blog'
+title = 'Gage Cameron'
 theme = 'PaperMod'
 
 [params]
 env = 'production'
-title = 'Gage Cameron Blog'
+title = 'Gage Cameron'
 description = 'A blog focused on technical writing and content'
 keywords = ['technical', 'writing', 'blog', 'cloud']
 author = 'Gage Cameron'
