@@ -18,3 +18,10 @@ home = ['HTML', 'RSS'] # Enables RSS feeds automatically
 [caches]
     [caches.images]
         dir = ':cacheDir/images' # Optimizes for GitHub Actions builds
+
+[menu]
+    [[menu.main]]
+        identifier = 'rss'
+        name = 'RSS'
+        url = '/index.xml'
+        weight = 20
