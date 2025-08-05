@@ -1,0 +1,20 @@
+baseURL = '/' # Will be updated dynamically in the workflow
+languageCode = 'en-us'
+title = 'Gage Cameron Blog'
+theme = 'PaperMod'
+
+[params]
+env = 'production'
+title = 'Gage Cameron Blog'
+description = 'A blog focused on technical writing and content'
+keywords = ['technical', 'writing', 'blog', 'cloud']
+author = 'Gage Cameron'
+defaultTheme = 'auto' # 'auto' enabled system-based dark/light switching with fallback to user preference
+disableThemeToggle = false # Shows a toggle button (moon/sun icon) for manual switching
+
+[outputs]
+home = ['HTML', 'RSS'] # Enables RSS feeds automatically
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images' # Optimizes for GitHub Actions builds
